@@ -1,18 +1,20 @@
 # sh-hereis
 This is cd utility for bash, zsh and another shells.
 
+![example](example.gif)
+
 
 ## Install
 Example for use zplug.
 
 .zshrc
-```
+```zsh
 zplug 'aiya000/sh-hereis', use:'{init.sh, hereis.sh, place.sh, edit-places.sh, reload-places.sh}'
 ```
 
 
 ## Examples for using
-```
+```sh
 $ echo $HOME
     #=> /home/aiya000
 $ cd ~ && hereis home-homu
